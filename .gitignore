@@ -53,3 +53,5 @@ Thumbs.db
 # Project specific
 network_anomalies.log
 network_monitor.log
+
+.history/

@@ -15,21 +15,30 @@ A lightweight, real-time network traffic monitoring tool that detects anomalies 
 
 ## Requirements
 
-- Python 3.x
-- pip (Python package installer)
+- Python 3.10 or higher
+- Poetry (Python package and dependency manager)
 
 ## Installation
 
 1. Clone the repository
-2. Install the required packages:
+
+2. Install Poetry (if not already installed):
+   ```bash
+   pip install poetry
+   ```
+
+3. Install project dependencies:
+   ```bash
+   poetry install
+   ```
 
 ## Running the Project
 
 1. Start the detector:
 
    ```bash
-   python3 main.py
-   ``` 
+   poetry run python main.py
+   ```
 
 2. Exit the program:
    - Press `Ctrl+C` to stop monitoring
